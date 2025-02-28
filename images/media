@@ -1,0 +1,77 @@
+/* General mobile styles */
+@media screen and (max-width: 768px) {
+    .idea {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    
+    .idea1 {
+        padding-top: 100px;
+        font-size: 1.5rem;
+    }
+    
+    .play {
+        font-size: 3rem;
+        padding-top: 200px;
+    }
+    
+    .container3, .container4 {
+        display: block;
+        margin: 2rem auto;
+        width: 90%;
+    }
+    
+    .container3 img, .container4 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .services, .fast {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+    }
+    
+    .fast div {
+        margin-bottom: 1rem;
+    }
+    
+    .step {
+        display: block;
+        text-align: center;
+        padding: 50px 20px;
+        font-size: 1.2rem;
+    }
+    
+    .top, .container6, .container7 {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .carousel {
+        width: 100%;
+    }
+    
+    .work {
+        display: block;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .All {
+        display: block;
+        text-align: center;
+    }
+    
+    .navbar {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

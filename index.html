@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./images/media">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scrollbar-width: none;
+    }
+    .idea{
+    
+        height: 99vh;
+        width: 99vw;
+        background-image: url(https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/Rectangle-1-copy-9.jpg?id=776);
+        background-size: cover;
+    }
+    .play{
+        position: absolute;
+         top: 20%; 
+        bottom: 0;
+        border: 1px solid white;
+        height: 100vh ;
+        width: 100%;
+        text-align: center;
+        padding-top: 400px;
+        font-size: 5rem;
+    
+
+    }
+    .container3{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 5rem;
+    }
+   
+    .container4{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20%;
+        margin: 5rem;
+        height: 50vh;
+        width: 50%;
+    }
+.container5{
+    display: flex;
+    gap: 15px;
+    height: 70%;
+    width: 70%;
+    justify-content: space-around;
+
+}
+
+
+    .top{
+     display: grid;
+    grid-template-columns: auto auto;
+     justify-content: space-around;
+        
+        
+    }
+    .top button{
+        width: 10vw;
+        height: 5vh;
+    }
+
+.container6{
+    display: flex;
+    background-color: rgb(215, 233, 250);
+   
+ 
+
+}
+.top p{
+    color: rgb(88, 39, 180);
+}  
+   
+
+.container7{
+    display: flex;
+    background-color: rgb(215, 233, 250);
+    margin: 4rem;
+
+
+}
+.marquee
+    {
+        margin: 4rem;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+
+
+}
+.All{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+   .jevelin{
+    display: grid;
+    grid-template-columns: auto auto auto aoto;
+    text-align: left;
+    gap: 10px;
+   } 
+   .ALl{
+    gap: 10px;
+    text-align: center;
+
+   }
+   .work{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: url(https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/Rectangle-1-copy-9.jpg?id=776);
+    color: aliceblue;
+    gap:5rem;
+width: 100vw;
+height: 50vh;
+
+
+   } 
+  
+
+footer{
+    height: 10vh;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+ .bg{
+    height: 99vh;
+    width: 99vw;
+    border: 1px solid red;
+ }  
+ .step{
+    height: 99vh;
+    width: 99vw;
+    border: 1px solid red;
+    display: flex;
+    padding-top: 20%;
+    justify-content: space-around;
+    background-image: url(https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/Rectangle-1-copy-9.jpg?id=776);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 2rem;
+
+ }
+ .button1{
+    display: flex;
+
+ }
+ .idea1{
+    
+    color: aliceblue;
+    text-align: center;
+    padding-top: 350px;
+
+ }
+ .carousel{
+    width: 50vw;
+    margin: auto;
+ }
+ .item img{
+      width: 60vw;
+      height: 30vh;
+      background-position: center center;
+      background-size: cover;
+      
+ }
+ .h1{
+    padding: left 500px;
+
+ }
+ .navbar {
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    width: 50%;
+  
+  }
+.mainlogo{
+    color: rgb(175, 30, 30);
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+ .fast{
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+  
+ @media screen and(max-width: 576px) {
+   .idea{
+    width: 50%;
+   } 
+ }
+
+ @media screen and(max-width: 576px) {
+    .container3{
+     width: 50%;
+     flex-direction: column;
+    }
+} 
+@media screen and(max-width: 576px) {
+    .container4{
+     width: 50%;
+     flex-direction: column;
+    }
+} 
+
+</style>
+<body>
+    
+    <div class="mainlogo">
+        <a href="https://jevelin.shufflehound.com/hello/">
+            <img src="./images/logo.pmg.jpg" alt="">
+        </a>
+    </div>
+    <div class="idea">
+        <div class="idea1">
+           <h1>CREATIVE STARTUP COMPANY WEBSITE TO PRESENT YOUR AMAZING IDEAS</h1> 
+            
+
+        </div>
+    </div>
+    <div class="play">
+        <a href="./play.html"><i class="fa-solid fa-circle-play"></i></a>
+    </div><br><br>
+
+    <div class="services">
+        <div>
+            <p>Always at service!</p> 
+            <h1>Splendid ideas <br> for starting <br> new business</h1>
+        </div>
+        <div class="fast">
+            <div>
+                <i class="fa-solid fa-bolt-lightning"></i><br>
+                <h1>Fast & effective</h1>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-display"></i>
+                <h1>Marketing strategy</h1>
+                <P>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</P>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-minus"></i>
+                <h1>Consulting</h1>
+                <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-headphones"></i>
+
+                <h1>Startup support</h1>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>  
+            </div>
+        </div>
+    </div>
+
+    <div class="step">
+        <div>
+      <h1>32+</h1>
+    <h2>Businesses built <br> in just 2 years</h2>
+
+  </div>
+
+<div>
+    <h1>100+</h1>
+    <br>
+    <h2>Milestones <br> completed</h2>
+</div>
+<div><h1>5k</h1>
+    <h2>Positive reviews <br> from clients</h2>
+</div>
+
+<div>
+    <h1>65</h1>
+    <h2>Best employees <br> in the world</h2>
+    </div>
+
+
+
+    </div>
+
+    <div class="container3">
+            <!-- <div class="contant"> -->
+        <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-xgffTVZs1FI-unsplash1.jpg" alt="">
+             <div>
+            <h1>Highest security in the castle</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Mauris vitae sodales lectus, non ultrices nisi. <br>In varius, leo non gravida tristique, diam nunc aliquam
+            </p>
+        <h3> <i class="fa-solid fa-check"></i> Password protection</h3>
+        <h3><i class="fa-solid fa-check"></i> 2-step authorization key11</h3>
+        <h3><i class="fa-solid fa-check"></i> Face recognition</h3>
+
+        
+        </div>
+
+<div class="container4">
+    <div>
+        
+
+
+    <h2>Worlds most amazing ideas are living here</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Mauris vitae sodales lectus, non ultrices nisi in</p>
+<h3>Higher demand    </h3>
+<div class="progress m-1 w-100"> 
+    
+<div class="w-75 progress-bar bg-warning" >80% </div>
+</div>
+<hr>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+  </div>
+<h3>Less expense</h3>
+
+<hr>
+</div>
+
+</div>
+    <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-xgffTVZs1FI-unsplash2.jpg" alt="">
+
+</div>
+
+
+           
+        </div>
+    
+            <div class="uts">
+      <center><h1>Gallery</h1>
+        <p>Ut et nisi ac dui pulvinar consequat</p></center>
+        </div>
+
+        <div class="carousel">
+            <!-- <h2>Carousel Example</h2>   -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash1.jpg" alt="" >
+                </div>
+          
+                <div class="item">
+                  <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash5.jpg" alt="">
+                </div>
+              
+                <div class="item">
+                  <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash.jpg" alt="">
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+    
+        <!-- </div>
+            <div class="container">
+                
+                <div class="container5">
+                
+                    <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash1.jpg" alt="">
+                    <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash5.jpg" alt="">
+                    <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/daniel-korpai-CCyTGxR3J9M-unsplash.jpg" alt="">
+
+                </div>
+        </div>
+        </div> -->
+
+
+ <div class="top">
+    <div>
+        <P>Top Quality!</P>
+        <h1>Our customers <BR>love what we do</H1>
+        <h5>Curabitur aliquam, felis ut ultricies porta, <br>ante dolor iaculis ante, ante dolor iaculis anteet fringilla ligula</h5>
+        <button>Contact Us</button>
+     
+    </div>
+    
+    <div class="bottom">
+        
+<div class="container6">
+    <div>
+        <i class="fa-solid fa-quote-right"></i>
+        <h5>Lectus, non ultrices nisi. In varius, leo non gravida tristique,<br> diam nunc aliquam ligula, id iaculis quam dui et metus.</h5>
+        <h1>Kate Welsh</h1>
+        </div>
+    <div>
+        <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/azamat-zhanisov-vI5jmWdv7hY-unsplash2.jpg" alt="">
+    </div>
+    </div>
+
+    <div class="container7">
+        <div>
+            <i class="fa-solid fa-quote-right"></i>
+            <h5>Lectus, non ultrices nisi. In varius, leo non gravida tristique,<br> diam nunc aliquam ligula, id iaculis quam dui et metus.</h5>
+            <h1>Jogh Doe </h1>
+        </div>
+        
+        <div>
+            <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/azamat-zhanisov-vI5jmWdv7hY-unsplash1.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    </div>
+<br><br>
+        <div class="marquee">
+            <marquee behavior="scroll" direction="left">
+                <img src="./images/Group-11.png" alt="image">
+                <img src="./images/image2.png" alt="image">
+                <img src="./images/image3.png" alt="image">
+                <img src="./images/image4.png" alt="image">
+                <img src="./images/image5.png" alt="image">
+                <img src="./images/image6.png" alt="image">
+                <img src="./images/image7.png" alt="image">
+                <img src="./images/image2.png" alt="image">
+                <img src="./images/image3.png" alt="image">
+                <img src="./images/image4.png" alt="image">
+                <img src="./images/image5.png" alt="image">
+            </marquee>
+        </div>
+
+        <div class="work">
+    
+        <!-- <div class="jevelin"> -->
+            <!-- <img src="https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/03/Jevelin_logo_light.png" alt="">
+              -->
+            <div>
+        <p>Follow our latest achievements and <br>information on social networks</p>
+        </div>
+ 
+     <div class="All">
+        
+    <div>
+        <h2>Explore</h2>
+        <p>Privacy</p>
+        <p>About us</p>
+        <p>Testimonials</p>
+    </div>
+    <div>
+        <h2>TeamWork</h2>
+        <p>Time line</p>
+        <p>News</p>
+        <p>insight</p>
+    </div>
+        <div>
+            <h2>Marketing</h2>
+            <p>strategy</p>
+            <p>Licensing</p>
+            <p>Terms&conditions</p>
+    </div>   
+     </div>
+    </div>
+
+    
+    <footer>
+        <p>powered by Meghana</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</body>
+</html>
